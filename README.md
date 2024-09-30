@@ -1,6 +1,8 @@
 # spinning-c-cube
 A very simple C program that renders 3 dimensional points and lines in the terminal. It renders a rectangular cuboid (2x2x3).
 
+![Alt Text](https://github.com/banansoppa/spinning-c-cube/blob/main/cube.gif)
+
 Build with `gcc -lm -o 3d 3d.c`
 
 The arguments to the program is `./3d FRAMES ANGLE1 ANGLE2 WIDTH HEIGHT SCALE_X SCALE_Y`, you have to provide either 0, 1, 3 or 7 arguments.
